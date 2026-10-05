@@ -1,0 +1,22 @@
+package local:demo;
+
+world impl {
+  export wasi:cli/environment@0.3.0;
+  export wasi:cli/exit@0.3.0;
+  export wasi:cli/types@0.3.0;
+  export wasi:cli/stdin@0.3.0;
+  export wasi:cli/stdout@0.3.0;
+  export wasi:cli/stderr@0.3.0;
+  export wasi:cli/terminal-input@0.3.0;
+  export wasi:cli/terminal-output@0.3.0;
+  export wasi:cli/terminal-stdin@0.3.0;
+  export wasi:cli/terminal-stdout@0.3.0;
+  export wasi:cli/terminal-stderr@0.3.0;
+  export wasi:clocks/types@0.3.0;
+  export wasi:clocks/monotonic-clock@0.3.0;
+  export wasi:clocks/system-clock@0.3.0;
+}
+
+world run {
+  export wasi:cli/run@0.3.0;
+}
